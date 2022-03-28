@@ -83,7 +83,7 @@ function selectColumn(columnIndex) {
     for (i=0; i<cells.length; i++) {
         var cellId = cells[i].id
         if (cellId == "cell-" + k + "-" + columnIndex) {
-            console.log("hi")
+            k++
             document.getElementById(cellId).classList.add("selectedCell")
         }
     }
